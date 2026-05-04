@@ -1,3 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início – Tech Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+    <h1>Tech Fácil</h1>
+    <nav>
+        <a href="index.html" class="active">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+ 
+<main>
+    <div class="badge">Projeto Escolar 2026</div>
+    <h2>Bem-vindo ao <span class="destaque">Tech Fácil</span></h2>
+    <p class="lead">Este site foi criado para ajudar iniciantes a entender tecnologia de forma simples e acessível.</p>
+    <a href="sobre.html" class="btn">Saiba mais</a>
+ 
+    <div class="cards">
+        <div class="card">
+            <div class="icon">💡</div>
+            <h3>Simples</h3>
+            <p>Conteúdo pensado para quem está começando.</p>
+        </div>
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Educativo</h3>
+            <p>Aprenda conceitos básicos de tecnologia.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🚀</div>
+            <h3>Prático</h3>
+            <p>Exemplos reais do dia a dia.</p>
+        </div>
+    </div>
+</main>
+ 
+<footer>
+    <p>© 2026 — Projeto Escolar · Tech Fácil</p>
+</footer>
+ 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre – Tech Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+    <h1>Tech Fácil</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html" class="active">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+ 
+<main>
+    <h2>Sobre o <span class="destaque">Projeto</span></h2>
+    <p class="lead">Conheça quem somos e o que queremos alcançar.</p>
+ 
+    <div class="info-grid">
+        <div class="info-box">
+            <h4>Quem somos</h4>
+            <p>Somos alunos desenvolvendo um site estático como atividade escolar.</p>
+        </div>
+        <div class="info-box">
+            <h4>Objetivo</h4>
+            <p>Ensinar conceitos básicos de tecnologia de forma acessível a todos.</p>
+        </div>
+        <div class="info-box">
+            <h4>Tecnologias</h4>
+            <p>HTML, CSS e JavaScript — as bases da web moderna.</p>
+        </div>
+        <div class="info-box">
+            <h4>Público-alvo</h4>
+            <p>Iniciantes que querem aprender tecnologia do zero.</p>
+        </div>
+    </div>
+</main>
+ 
+<footer>
+    <p>© 2026 — Projeto Escolar · Tech Fácil</p>
+</footer>
+ 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato – Tech Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+    <h1>Tech Fácil</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html" class="active">Contato</a>
+    </nav>
+</header>
+ 
+<main>
+    <h2>Fale com <span class="destaque">a gente</span></h2>
+    <p class="lead">Manda sua mensagem, vai ser um prazer responder!</p>
+ 
+    <div class="form-box">
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+ 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com">
+ 
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..."></textarea>
+ 
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+</main>
+ 
+<footer>
+    <p>© 2026 — Projeto Escolar · Tech Fácil</p>
+</footer>
+ 
+</body>
+</html>
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap');
  
 * {
